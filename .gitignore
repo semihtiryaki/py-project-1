@@ -32,7 +32,7 @@ print(emptylist)
 l = [[1, 2], [3, 4], [5, 6, 7]]
 emptylist = []
 
-def rev(l):
+def rev(l): 
     for i in l:
         if type(i)==list:
             emptylist.append(list(reversed(i)))
